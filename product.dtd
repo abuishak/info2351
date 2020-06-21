@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT product ( food, description, category , UPC*, primaryVendor*, cost*, retilPrice*, quantity*) >
+<!ELEMENT food (#PCDATA) >
+<!ELEMENT description (#PCDATA) >
+<!ELEMENT UPC (#PCDATA) >
+<!ELEMENT primaryVendor (#PCDATA) >
+<!ELEMENT cost (#PCDATA) >
+<!ELEMENT retilPrice (#PCDATA) >
+<!ELEMENT quantity (#PCDATA) >
+
+
+
+
+

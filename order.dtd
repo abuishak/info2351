@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT order ( date, customerNumber, product, itemCount, tax, totalCost, totalPrice, totalPaid, paymentDetails) >
+<!ELEMENT date (#PCDATA) >
+<!ELEMENT customerNumber (#PCDATA) >
+<!ELEMENT product (item+) >
+<!ELEMENT itemCount (#PCDATA) >
+<!ELEMENT tax (#PCDATA) >
+<!ELEMENT totalCost (#PCDATA) >
+<!ELEMENT totalPrice (#PCDATA) >
+<!ELEMENT totalPaid (#PCDATA) >
+<!ATTLIST totalPaid method CDATA #REQUIRED> 
+<!ELEMENT paymentDetails (#PCDATA)>
+ <!ATTLIST paymentDetails method CDATA #REQUIRED>
+ <!ELEMENT item (description, UPC,category, primaryVendor, cost, retilPrice, quantity)> 
+ <!ELEMENT description (#PCDATA)> 
+<!ELEMENT UPC (#PCDATA)>
+<!ELEMENT category (#PCDATA)>
+<!ELEMENT primaryVendor (#PCDATA)> 
+<!ELEMENT cost (#PCDATA)> 
+<!ELEMENT retilPrice (#PCDATA)> 
+<!ELEMENT quantity (#PCDATA)>

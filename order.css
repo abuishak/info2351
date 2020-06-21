@@ -1,0 +1,32 @@
+order {
+    background-color: #ffffff;
+    width: 100%;
+}
+date{
+    display: block;
+    margin-bottom: 30pt;
+    margin-left: 0;
+}
+customerNumber{
+    display: block;
+    margin-bottom: 30pt;
+    margin-left: 0;
+}
+
+product {
+    display: block;
+    margin-bottom: 30pt;
+    margin-left: 0;
+}
+item {
+    display: block;
+    color: #ff0000;
+    font-size: 20pt;
+}
+itemCount,tax, totalCost, totalPrice,totalPaid, paymentDetails {
+    display: block;
+    color: #ff0000;
+    font-size: 20pt;
+}
+
+

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="vendor.css"?>
+<vendor xsi:schemalocation="vendor.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <busines_name>HOT POT LTD</busines_name>
+    <contact_name>
+        <first>Miska</first>
+        <last>Kanita</last>
+    </contact_name>
+    
+    <Vendoe_number>LDP001</Vendoe_number>
+    <mail_a>
+        <line>7702 Howard st</line>
+        <city>Omaha</city>
+        <state>NE</state>
+        <zip>68123</zip>
+        <country>USA</country>
+        </mail_a>
+    <busines_name>XXX Mition</busines_name>
+    <contact_name>
+        <first>Abu</first>
+        <last>Ishak</last>
+    </contact_name>
+    
+    <Vendoe_number>LDP002</Vendoe_number>
+    <mail_a>
+        <line>9852 Howard st</line>
+        <city>Omaha</city>
+        <state>NE</state>
+        <zip>68123</zip>
+        <country>USA</country>
+    </mail_a>
+    <busines_name>Pan Mashalla</busines_name>
+    <contact_name>
+        <first>Masudur</first>
+        <last>Rahman</last>
+    </contact_name>
+    
+    <Vendoe_number>LDP003</Vendoe_number>
+    <mail_a>
+        <line>7702 Band st</line>
+        <city>Omaha</city>
+        <state>NY</state>
+        <zip>68123</zip>
+        <country>USA</country>
+    </mail_a>
+    <busines_name>Rupaly LTD</busines_name>
+    <contact_name>
+        <first>Mokas</first>
+        <last>Khan</last>
+    </contact_name>
+    
+    <Vendoe_number>LDP004</Vendoe_number>
+    <mail_a>
+        <line>2586 Mean st</line>
+        <city>Omaha</city>
+        <state>NE</state>
+        <zip>68123</zip>
+        <country>USA</country>
+    </mail_a>
+</vendor>

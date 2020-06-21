@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="Businesscards.css"?>
+<companyNames>
+    <companyName>
+        <Name>Abu Ishak</Name>
+        <phone type="home" primary="primary">(402) 3082279720</phone>
+        <phone type="Work">(402) 3082279721</phone>
+        <email>aishak@mail.mccneb.edu</email>
+        <company>Tech IT Solution</company>
+    </companyName>
+    <companyName>
+        <Name>Miska Kanita</Name>
+        <phone type="home" primary="primary">(402) 3082279750</phone>
+        <phone type="work">(402) 3082279751</phone>
+        <email>aishak@mail.mccneb.edu</email>
+        <company>Spaktream USA</company>
+      </companyName>
+      <companyName>
+            <Name>Raya Ishak</Name>
+            <phone type="home" primary="primary">(402) 3082279920</phone>
+            <phone type="work">(402) 3082279923</phone>
+            <email>aishak@mail.mccneb.edu</email>
+            <company>Tata IT Solution</company>
+        </companyName>
+        
+</companyNames>
+

@@ -1,0 +1,29 @@
+product {
+    background-color: #ffffff;
+    width: 100%;
+}
+food {
+    display: block;
+    margin-bottom: 30pt;
+    margin-left: 0;
+}
+description {
+    display: block;
+    color: #ff0000;
+    font-size: 20pt;
+}
+category {
+    display: block;
+    color: #0000ff;
+    font-size: 20pt;
+}
+UPC {
+    display: block;
+    color: #0000ff;
+    font-size: 20pt;
+}
+primaryVendor, cost, retilPrice, quantity {
+    display: block;
+    color: #000000;
+    margin-left: 20pt;
+}

@@ -1,0 +1,22 @@
+/* Valid CSS using "CSS2" profile and "ALL" medium */
+ID {
+    font-family: sans-serif;
+    font-size-adjust: none;
+    font-style:italic;
+    font-variant: normal;
+    font-size: 100%;
+    list-style:inside;
+    background-color: #DBDBDB;
+    letter-spacing:normal;
+    text-align:left;
+    text-transform:capitalize;
+    word-spacing:normal;
+    color: black;
+    border-width: thin;
+    background-repeat: repeat;
+    font-weight: bold;
+    overflow :auto;
+    display: block;
+    }
+    
+ 

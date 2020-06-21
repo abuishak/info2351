@@ -1,0 +1,29 @@
+vendor {
+font-family:arial, helvetica, sans-serif;
+    font-size: 18px;
+    color: red;
+    display:block;
+    padding: 10px;
+    margin: 20px;
+    background-color: ivory;
+    width: 400px;
+    border: 5px;
+    border-color: gray;
+    }
+busines_name {
+    display: block;
+    font-weight: bold;
+}
+contact_name {
+    display: block;
+}
+Vendoe_number {
+    display: block;
+}
+mail_a {
+    display: block;
+}
+busines_name:before { content:"busines_name:"}
+contact_name:before { content:"contact_name:"}
+Vendoe_number:before { content:"Vendoe_number:"}
+mail_a:before { content:"mail_a:"}

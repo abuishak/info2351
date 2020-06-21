@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="customer.css"?>
+<customer xsi:schemalocation="customer.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <name>
+        <first>Abu</first>
+        <last>Ishak</last>
+        </name>
+    <cnum>ABC001</cnum>
+    <mail_a>
+        <line>7520 Howard st</line>
+        <city>Omaha</city>
+        <state>NE</state>
+        <zip>68123</zip>
+        <country>USA</country>
+        </mail_a>
+    <name>
+        <first>Miska</first>
+        <last>Kanita</last>
+    </name>
+    <cnum>ABC002</cnum>
+    <mail_a>
+        <line>7702 Howard st</line>
+        <city>Omaha</city>
+        <state>NE</state>
+        <zip>68123</zip>
+        <country>USA</country>
+    </mail_a>
+    <name>
+        <first>Raya</first>
+        <last>Ishak</last>
+    </name>
+    <cnum>ABC003</cnum>
+    <mail_a>
+        <line>9720 Howard st</line>
+        <city>Omaha</city>
+        <state>NE</state>
+        <zip>68114</zip>
+        <country>USA</country>
+    </mail_a>
+    <name>
+        <first>Rameen</first>
+        <last>Ishak</last>
+    </name>
+    <cnum>ABC004</cnum>
+    <mail_a>
+        <line>4520 Howard st</line>
+        <city>Omaha</city>
+        <state>NE</state>
+        <zip>68114</zip>
+        <country>USA</country>
+    </mail_a>
+    <name>
+        <first>Khalad</first>
+        <last>Mahmud</last>
+    </name>
+    <cnum>ABC005</cnum>
+    <mail_a>
+        <line>12502 Howard st</line>
+        <city>Omaha</city>
+        <state>NE</state>
+        <zip>68123</zip>
+        <country>USA</country>
+    </mail_a>
+</customer>

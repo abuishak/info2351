@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT vendor ( busines_name+, contact_name+, Vendoe_number+, mail_a+) >
+<!ELEMENT busines_name (#PCDATA) >
+<!ELEMENT contact_name ( first, last) >
+<!ELEMENT first (#PCDATA) >
+<!ELEMENT last (#PCDATA) >
+<!ELEMENT Vendoe_number (#PCDATA) >
+<!ELEMENT mail_a ( line, city , state , zip, country) >
+<!ELEMENT line (#PCDATA) >
+<!ELEMENT city (#PCDATA) >
+<!ELEMENT state (#PCDATA) >
+<!ELEMENT zip (#PCDATA) >
+<!ELEMENT country (#PCDATA) >
+
+
+
+

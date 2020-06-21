@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="order">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="date"/>
+        <xs:element ref="customerNumber"/>
+        <xs:element ref="product"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="date" type="xs:date"/>
+  <xs:element name="customerNumber" type="xs:NCName"/>
+  <xs:element name="product">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="item"/>
+        <xs:element ref="itemCount"/>
+        <xs:element ref="tax"/>
+        <xs:element ref="totalCost"/>
+        <xs:element ref="totalPrice"/>
+        <xs:element ref="totalPaid"/>
+        <xs:element ref="paymentDetails"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="item">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="description"/>
+        <xs:element ref="category"/>
+        <xs:element ref="UPC"/>
+        <xs:element ref="primaryVendor"/>
+        <xs:element ref="cost"/>
+        <xs:element ref="retilPrice"/>
+        <xs:element ref="quantity"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="description" type="xs:string"/>
+  <xs:element name="category" type="xs:integer"/>
+  <xs:element name="UPC" type="xs:NMTOKEN"/>
+  <xs:element name="primaryVendor" type="xs:string"/>
+  <xs:element name="cost" type="xs:string"/>
+  <xs:element name="retilPrice" type="xs:string"/>
+  <xs:element name="quantity" type="xs:integer"/>
+  <xs:element name="itemCount" type="xs:integer"/>
+  <xs:element name="tax" type="xs:decimal"/>
+  <xs:element name="totalCost" type="xs:string"/>
+  <xs:element name="totalPrice" type="xs:string"/>
+  <xs:element name="totalPaid">
+    <xs:complexType mixed="true">
+      <xs:attribute name="method" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="paymentDetails">
+    <xs:complexType mixed="true">
+      <xs:attribute name="method" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

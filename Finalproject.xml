@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="Finalproject.xsl" type="text/xsl" ?>
+<?xml-stylesheet type="text/css" href="Finalproject.css"?>
+<customer xsi:schemalocation="Finalproject.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <date>1995-10-15</date>
+<name>
+    <first>Abu</first>
+    <last>Ishak</last>
+</name>
+    <mailAddress>
+        <street>7520 howard st</street>
+        <city>Omaha</city>
+        <state>NE</state>
+        <zip>681114</zip>
+        <country>USA</country>
+    </mailAddress>
+    
+<customerNumber>001</customerNumber>
+<businessName>Babalu LTD.</businessName>
+<contactName>Bablu</contactName>   
+<businesAddress>
+    <street>1111 Muzuunay st</street>
+    <city>Omaha</city>
+    <state>NE</state>
+    <zip>68123</zip>
+    <country>USA</country>
+</businesAddress>
+<order>
+        <productDescription>Sweet</productDescription>
+        <category>Food</category>
+        <UPC>11111-22222</UPC>
+        <primaryVendor>Milk Vitta</primaryVendor>
+        <price>3.28</price>
+        <department>Food</department>
+        <quantity>1</quantity>
+        <extPrice>3.28</extPrice>
+ </order>
+    <itemCount>1</itemCount>
+    <tax>0.00</tax>
+    <totalPrice>3.28</totalPrice>
+    <totalPaid method="VISA">3.28</totalPaid>
+    <paymentDetails method="VISA">xxxx xxxx xxxx 1234"</paymentDetails>
+</customer>

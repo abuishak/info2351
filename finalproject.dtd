@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT customer (date, name,mailAddress, businesAddress, customerNumber, businessName,street+, city+, state+ ,state+ ,zip+, country+ , order, contactName,itemCount, tax, totalPrice, totalPaid, paymentDetails)> 
+ <!ELEMENT date (#PCDATA)> 
+<!ELEMENT name (#PCDATA)> 
+<!ELEMENT mailAddress (#PCDATA)>
+<!ELEMENT customerNumber (#PCDATA)> 
+<!ELEMENT businessName (#PCDATA)>
+<!ELEMENT businesAddress (#PCDATA)>
+ <!ELEMENT Order (#PCDATA)> 
+<!ELEMENT contactName (#PCDATA)>
+ <!ELEMENT itemCount (#PCDATA)> 
+ <!ELEMENT tax (#PCDATA)> 
+ <!ELEMENT totalPrice (#PCDATA)> 
+ <!ELEMENT totalPaid (#PCDATA)>
+ <!ATTLIST totalPaid method CDATA #REQUIRED> 
+ <!ELEMENT paymentDetails (#PCDATA)>
+ <!ATTLIST paymentDetails method CDATA #REQUIRED> 
+<!ELEMENT street (#PCDATA)>
+<!ELEMENT city (#PCDATA)>
+<!ELEMENT state (#PCDATA)>
+<!ELEMENT zip (#PCDATA)>
+<!ELEMENT country (#PCDATA)>
+<!ELEMENT order (productDescription, category, UPC, primaryVendor, price, department, quantity, extPrice)> 
+ <!ELEMENT productDescription (#PCDATA)> 
+ <!ELEMENT category (#PCDATA)>
+ <!ELEMENT primaryVendor (#PCDATA)>
+ <!ELEMENT UPC (#PCDATA)> 
+ <!ELEMENT price (#PCDATA)> 
+ <!ELEMENT department (#PCDATA)> 
+ <!ELEMENT quantity (#PCDATA)> 
+ <!ELEMENT extPrice (#PCDATA)> 

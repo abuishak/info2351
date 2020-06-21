@@ -1,0 +1,25 @@
+customer {
+font-family:arial, helvetica, sans-serif;
+    font-size: 18px;
+    color: red;
+    display:block;
+    padding: 10px;
+    margin: 20px;
+    background-color: ivory;
+    width: 400px;
+    border: 5px;
+    border-color: gray;
+    }
+name {
+    display: block;
+    font-weight: bold;
+}
+cnum {
+    display: block;
+}
+mail_a {
+    display: block;
+}
+name:before { content:"name:"}
+cnum:before { content:"cnum:"}
+mail_a:before { content:"mail_a:"}

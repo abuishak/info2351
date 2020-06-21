@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="Format.css"?>
+<!--edited with Notepad by Abu Ishak INFO2351 week-2 12/14/16 -->
+<Contacts>
+    <ID>
+        <name>The Twelve Days of Christmas</name>
+        <body>
+            <description>Unknown On the first day of Christmas, my true love sent to me A partridge in a pear tree.</description>
+            <description>On the second day of Christmas, my true love sent to me Two turtle doves and a partridge in a pear tree.</description>
+    <note>
+    <description>On the third day of Christmas, my true love sent to me Three French hens, two turtle doves And a partridge in a pear tree. </description>
+        <description>On the fourth day of Christmas, my true love sent to me Four calling birds,three French
+            hens,two turtle doves And a partridge in a pear tree.</description>
+            </note>
+        <description>On the fifth day of Christmas, my true love sent to me Five golden rings.Four calling birds,three French hens,two turtle doves And a partridge in a pear tree.</description>
+        <description>On the sixth day of Christmas, my true love gave to me Six geese a-laying,Five golden rings.</description>
+    <description>Four calling birds,three French hens,two turtle doves And a partridge in a pear tree.</description> 
+    <description>On the seventh day of Christmas, my true love gave to me Seven swans a-swimming,six geese a-laying,Five golden rings.</description> 
+    <description>Four calling birds,three French hens,two turtle doves And a partridge in a pear tree.</description> 
+        <description>On the eighth day of Christmas, my true love gave to me Eight maids a-milking,seven swans a-swimming,six geese a-laying,Five golden rings.</description> 
+        <description>Four calling birds,three French hens,two turtle doves And a partridge in a pear tree.</description>
+        <description>On the ninth day of Christmas, my true love gave to me Nine ladies dancing,eight maids a-milking,seven swans a-swimming,six geese a-laying,Five golden rings. 
+            Four calling birds,three French hens,two turtle doves And a partridge in a pear tree.</description>
+        <description>On the tenth day of Christmas, my true love gave to me Ten lords a-leaping,nine ladies dancing,eight maids a-milking,seven swans a-swimming, 
+            six geese a-laying,Five golden rings.</description> 
+        <description>Four calling birds,three French hens,two turtle doves And a partridge in a pear tree.</description>
+            <description>On the eleventh day of Christmas, my true love gave to me Eleven pipers piping,ten lords a-leaping,nine ladies dancing,eight maids a-milking, 
+                seven swans a-swimming,six geese a-laying,Five golden rings.</description> 
+            <description>Four calling birds,three French hens,two turtle doves And a partridge in a pear tree.</description>
+            <description>On the twelfth day of Christmas, my true love gave to me Twelve drummers drumming,eleven pipers piping,ten lords a-leaping,nine ladies dancing, 
+                eight maids a-milking,seven swans a-swimming,six geese a-laying,Five golden rings.</description> 
+            <description>Four calling birds,three French hens,two turtle doves And a partridge in a pear tree.</description>
+        </body>
+    </ID>
+</Contacts>

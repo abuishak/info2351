@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="contacts.css"?>
+<!--edited with Notepad by Abu Ishak INFO2351 week-2 12/15/16 -->
+<Contacts>
+    <ID>
+        <Company>XYZ Inc.</Company>
+        <Name>
+            <Last_Name>Jones</Last_Name>
+            <First_Name>Barnaby</First_Name>
+        </Name>
+        <e-mail_Address>
+            <message>
+                <from>bjones@xyz.com</from>
+            </message>
+        </e-mail_Address>
+        <Job_Title>Owner-Operator</Job_Title>
+        <Business_Phone>402-410-2314</Business_Phone>
+        <Address>8923 Holmes St</Address>
+        <City>Omaha</City>
+        <State>NE</State>
+        <Zip>68222</Zip>
+        <Country>USA</Country>
+        <div>Prospect</div>
+        <Catergory>Business</Catergory>
+    </ID>
+    <ID>
+        <Company>ABC International</Company>
+        <Name>
+            <Last_Name>Magnum</Last_Name>
+            <First_Name>Thomas</First_Name>
+        </Name>
+        <e-mail_Address>
+            <massage>
+                <From>tmagnum@abcint.biz</From>
+            </massage>
+        </e-mail_Address>
+        <Jobe_Title>Owner-Operator</Jobe_Title>
+        <Contact>
+            <Home_Phone>402-310-2222</Home_Phone>
+            <Business_Phone>402-571-2893</Business_Phone>
+        </Contact>
+        <Address>3204 Plains Ave</Address>
+        <City>Papillion</City>
+        <State>NE</State>
+        <Zip>68103</Zip>
+        <Country>USA</Country>
+        <div>Vendor</div>
+        <Catergory>Business</Catergory>
+    </ID>
+    <ID>
+        <Company>Wiz Kids</Company>
+        <Name>
+            <Last_Name>Plum</Last_Name>
+            <First_Name>Steve</First_Name>
+        </Name>
+        <e-mail_Address>
+            <massage>
+                <From>steve@wizkids.com</From>
+            </massage>
+        </e-mail_Address>
+        <Jobe_Title>Sales Rep</Jobe_Title>
+        <Contact>
+            <Home_Phone>402-555-2325</Home_Phone>
+            <Mobail_Phone>402-516-2038</Mobail_Phone>
+            <Business_Phone>402-333-2428</Business_Phone>
+        </Contact>
+        <Address>1234 Main St</Address>
+        <City>Belluvue</City>
+        <State>NE</State>
+        <Zip>68201</Zip>
+        <Country>USA</Country>
+        <Web_Page>#http://wizkids.com</Web_Page>
+        <div>Vendor</div>
+    </ID>
+</Contacts>
+
+

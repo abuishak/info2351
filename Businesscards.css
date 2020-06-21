@@ -1,0 +1,34 @@
+companyName
+{
+  font-family:arial, helvetica, sans-serif;
+    font-size: 18px;
+    color: red;
+    display:block;
+    padding: 10px;
+    margin: 20px;
+    background-color: ivory;
+    width: 400px;
+    border: 5px;
+    border-color: gray;
+}
+Name 
+{
+    display: block;
+    font-weight: bold;
+}
+phone
+{
+    display: block;
+}
+company
+{
+    display: block;
+}
+email
+{
+    display: block;
+    color:green;
+}
+email:before { content:"email: "}
+phone:before { content: attr(type)" : "}
+phone[primary]:after {content: "(" attr(primary) ")"}

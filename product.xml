@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="product.xsl" type="text/xsl" ?>
+<?xml-stylesheet type="text/css" href="product.css"?>
+<product xsi:schemalocation="product.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    
+<food>
+        <description>Sweet</description>
+        <category>910</category>
+        <UPC>11111-22222</UPC>
+        <primaryVendor>Milk Vitta</primaryVendor>
+        <cost>$3.28</cost>
+        <retilPrice>$3.79</retilPrice>
+        <quantity>1</quantity>
+</food>
+<food>
+     <description>Strawberry Belgian Waffles</description>
+        <category>900</category>
+    <UPC>11111-22223</UPC>
+    <primaryVendor>Light Belgian waffles covered with strawberries and whipped cream</primaryVendor>
+        <cost>$7.95</cost>
+    <retilPrice>$8.25</retilPrice>
+    <quantity>1</quantity>
+        </food>
+    <food>
+        
+        <description>Berry-Berry Belgian Waffles</description>
+        <category>910</category>
+        <UPC>11111-22224</UPC>
+        <primaryVendor>Light Belgian waffles covered with an assortment of fresh berries and whipped cream</primaryVendor>
+        <cost>$6.95</cost>
+        <retilPrice>$7.25</retilPrice>
+        <quantity>1</quantity>
+        </food>
+   <food>
+        
+        <description>French Toast</description>
+       <category>911</category>
+       <UPC>11111-22225</UPC>
+        <primaryVendor>Thick slices made from our homemade sourdough bread</primaryVendor>
+       <cost>$4.95</cost>
+       <retilPrice>$5.25</retilPrice>
+       <quantity>1</quantity>
+ </food>
+</product>
